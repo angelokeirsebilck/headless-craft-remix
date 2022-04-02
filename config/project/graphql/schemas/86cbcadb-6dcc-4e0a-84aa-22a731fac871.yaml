@@ -1,0 +1,8 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sections.abe51245-0666-4961-b999-e8c6e1c157ee:read' # Pages
+  - 'entrytypes.0ba58074-850c-411e-94a4-38d2bfcaa2ce:read' # Default
+  - 'entrytypes.716e0758-42fa-403f-b94d-778215baf438:read' # Login
+  - 'volumes.ec41bc5e-e535-48be-a479-86650d373985:read' # Images
+  - 'globalsets.f346bfcd-24ac-445c-96bb-186e2ec34f34:read' # Navigation

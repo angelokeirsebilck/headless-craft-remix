@@ -1,0 +1,19 @@
+fieldLayouts:
+  9cbfa304-3477-4581-b8df-070859c50a1f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a17a6b44-6208-4fb8-9cab-679333f9ce2c # Nav
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Main
+        sortOrder: 1
+handle: globalNav
+name: Navigation
+sortOrder: 1

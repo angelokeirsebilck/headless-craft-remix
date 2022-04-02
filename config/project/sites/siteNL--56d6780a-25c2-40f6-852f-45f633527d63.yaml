@@ -1,0 +1,9 @@
+baseUrl: '@web/'
+enabled: true
+handle: siteNL
+hasUrls: true
+language: nl
+name: 'Remix Craft NL'
+primary: false
+siteGroup: d0dddf82-f4fa-4ba3-b2db-a1183e56a132 # Remix Craft
+sortOrder: 2

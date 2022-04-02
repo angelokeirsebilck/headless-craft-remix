@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-GB
+name: 'Remix Craft'
+primary: true
+siteGroup: d0dddf82-f4fa-4ba3-b2db-a1183e56a132 # Remix Craft
+sortOrder: 1

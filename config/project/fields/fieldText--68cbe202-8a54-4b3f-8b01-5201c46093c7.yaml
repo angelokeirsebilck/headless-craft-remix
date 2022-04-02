@@ -1,0 +1,19 @@
+columnSuffix: ogqrmdfh
+contentColumnType: text
+fieldGroup: 50a94eac-3741-4dc1-8227-7add9f01a6c1 # Common
+handle: fieldText
+instructions: ''
+name: Text
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

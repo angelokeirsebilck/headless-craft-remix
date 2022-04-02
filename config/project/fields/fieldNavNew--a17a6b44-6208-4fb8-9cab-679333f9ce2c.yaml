@@ -1,0 +1,20 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 50a94eac-3741-4dc1-8227-7add9f01a6c1 # Common
+handle: fieldNavNew
+instructions: ''
+name: Nav
+searchable: false
+settings:
+  contentTable: '{{%stc_fieldnavnew}}'
+  fieldLayout: row
+  maxRows: ''
+  minRows: ''
+  placeholderKey: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: ''
+  staticField: ''
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField
