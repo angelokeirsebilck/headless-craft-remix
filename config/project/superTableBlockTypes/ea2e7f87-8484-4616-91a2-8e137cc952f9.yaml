@@ -1,0 +1,104 @@
+field: f8117af8-9f36-4fd8-bae9-c1ca93219070 # Contact Form
+fieldLayouts:
+  173c42b4-fd2c-4c93-9dfd-29469937feba:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f86cc3ea-f42b-47b5-91b8-41659b80721b # Firstname
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 16fe2f0e-7684-4095-801a-764b3a18396f # Lastname
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1fc0a1a2-0088-4b9b-998c-4b79e55127f7 # Message
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1fc0a1a2-0088-4b9b-998c-4b79e55127f7: # Message
+    columnSuffix: glparpay
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemMessage
+    instructions: ''
+    name: Message
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  16fe2f0e-7684-4095-801a-764b3a18396f: # Lastname
+    columnSuffix: nwxleggr
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemLastname
+    instructions: ''
+    name: Lastname
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f86cc3ea-f42b-47b5-91b8-41659b80721b: # Firstname
+    columnSuffix: qllhlvhf
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemFirstname
+    instructions: ''
+    name: Firstname
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

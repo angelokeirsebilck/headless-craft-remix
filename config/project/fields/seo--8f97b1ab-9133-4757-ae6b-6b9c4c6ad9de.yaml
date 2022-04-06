@@ -1,0 +1,31 @@
+columnSuffix: ycwmmyqz
+contentColumnType: text
+fieldGroup: 50a94eac-3741-4dc1-8227-7add9f01a6c1 # Common
+handle: seo
+instructions: ''
+name: SEO
+searchable: false
+settings:
+  elementDisplayPreviewType: google
+  facebookEnabledFields:
+    - seoPreview
+    - ogTitle
+    - ogDescription
+    - ogImage
+  facebookTabEnabled: '1'
+  generalEnabledFields:
+    - seoPreview
+    - seoTitle
+    - seoDescription
+    - seoImage
+  generalTabEnabled: '1'
+  sitemapTabEnabled: ''
+  twitterEnabledFields:
+    - seoPreview
+    - twitterTitle
+    - twitterDescription
+    - twitterImage
+  twitterTabEnabled: '1'
+translationKeyFormat: null
+translationMethod: site
+type: nystudio107\seomatic\fields\SeoSettings

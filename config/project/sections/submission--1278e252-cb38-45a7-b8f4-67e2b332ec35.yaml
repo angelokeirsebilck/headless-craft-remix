@@ -1,17 +1,17 @@
 defaultPlacement: end
 enableVersioning: true
-handle: pages
-name: Pages
+handle: submission
+name: Submission
 propagationMethod: all
 siteSettings:
   56d6780a-25c2-40f6-852f-45f633527d63: # Remix Craft NL
     enabledByDefault: true
-    hasUrls: true
+    hasUrls: false
     template: null
-    uriFormat: '{slug}'
+    uriFormat: null
   936bf2d3-1dba-4f8b-8981-8d8fd776c900: # Remix Craft
     enabledByDefault: true
-    hasUrls: true
+    hasUrls: false
     template: null
-    uriFormat: '{slug}'
+    uriFormat: null
 type: channel

@@ -6,3 +6,9 @@ scope:
   - 'entrytypes.716e0758-42fa-403f-b94d-778215baf438:read' # Login
   - 'volumes.ec41bc5e-e535-48be-a479-86650d373985:read' # Images
   - 'globalsets.f346bfcd-24ac-445c-96bb-186e2ec34f34:read' # Navigation
+  - 'seomatic.all:read'
+  - 'sections.1278e252-cb38-45a7-b8f4-67e2b332ec35:edit' # Submission
+  - 'entrytypes.93c825c9-b536-4932-93d3-928103610830:edit' # Default
+  - 'entrytypes.93c825c9-b536-4932-93d3-928103610830:create' # Default
+  - 'entrytypes.93c825c9-b536-4932-93d3-928103610830:save' # Default
+  - 'entrytypes.93c825c9-b536-4932-93d3-928103610830:delete' # Default

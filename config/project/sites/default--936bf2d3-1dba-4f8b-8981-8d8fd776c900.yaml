@@ -1,4 +1,5 @@
-baseUrl: $PRIMARY_SITE_URL
+baseUrl: '@siteUrl/en'
+enabled: true
 handle: default
 hasUrls: true
 language: en-GB

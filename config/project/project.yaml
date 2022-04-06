@@ -1,4 +1,4 @@
-dateModified: 1648836662
+dateModified: 1649012941
 email:
   fromEmail: angelo@boa.be
   fromName: 'Remix Craft'
@@ -6,25 +6,36 @@ email:
 meta:
   __names__:
     0ba58074-850c-411e-94a4-38d2bfcaa2ce: Default # Default
+    1fc0a1a2-0088-4b9b-998c-4b79e55127f7: Message # Message
     2d1542e9-2a81-47e0-b0cc-2572205129f5: Link # Link
     5d310f28-d550-4935-8118-a84a1453da53: 'Text / Media' # Text / Media
     7fb0cc7a-9dea-4ce4-b867-2be6ee3af0cd: Content # Content
+    8f97b1ab-9133-4757-ae6b-6b9c4c6ad9de: SEO # SEO
+    16fe2f0e-7684-4095-801a-764b3a18396f: Lastname # Lastname
+    36e580ee-1813-438d-8989-c9c415e3fbed: Lastname # Lastname
     50a94eac-3741-4dc1-8227-7add9f01a6c1: Common # Common
     56d6780a-25c2-40f6-852f-45f633527d63: 'Remix Craft NL' # Remix Craft NL
     68cbe202-8a54-4b3f-8b01-5201c46093c7: Text # Text
+    83d28400-a563-4904-9cbf-abb0bd5f2763: Message # Message
     86cbcadb-6dcc-4e0a-84aa-22a731fac871: 'Public Schema' # Public Schema
     92e613bc-d8ee-4c35-a1f1-d59507e2d949: Text # Text
+    93c825c9-b536-4932-93d3-928103610830: Default # Default
     716e0758-42fa-403f-b94d-778215baf438: Login # Login
     936bf2d3-1dba-4f8b-8981-8d8fd776c900: 'Remix Craft' # Remix Craft
+    1278e252-cb38-45a7-b8f4-67e2b332ec35: Submission # Submission
     4016ff1e-7562-420e-b3da-0f2415cc38a1: Title # Title
     4219b4cd-85f2-42fd-8471-cb38182e8579: Link # Link
+    a0b38ead-1425-4026-a02e-ba4ce78d998c: Form # Form
     a17a6b44-6208-4fb8-9cab-679333f9ce2c: Nav # Nav
     abe51245-0666-4961-b999-e8c6e1c157ee: Pages # Pages
     b4e76042-7468-40c7-8bd1-bd6d58cc211f: Media # Media
+    b77b86c0-4f2a-419d-a48b-4bc38e967e91: Firstname # Firstname
     c17593c8-514c-4c4f-b327-9b10225ea031: Nav # Nav
     d0dddf82-f4fa-4ba3-b2db-a1183e56a132: 'Remix Craft' # Remix Craft
     ec41bc5e-e535-48be-a479-86650d373985: Images # Images
+    f86cc3ea-f42b-47b5-91b8-41659b80721b: Firstname # Firstname
     f346bfcd-24ac-445c-96bb-186e2ec34f34: Navigation # Navigation
+    f8117af8-9f36-4fd8-bae9-c1ca93219070: 'Contact Form' # Contact Form
 plugins:
   image-resizer:
     edition: standard
@@ -34,6 +45,55 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.11
+    settings:
+      addHrefLang: true
+      addPaginatedHreflang: true
+      addXDefaultHrefLang: true
+      alwaysIncludeCanonicalUrls: false
+      cpTitlePrefix: '⚙ '
+      cspNonce: ''
+      cspScriptSrcPolicies:
+        -
+          __assoc__:
+            -
+              - policy
+              - '''self'''
+      devModeCpTitlePrefix: '&#x1f6a7;⚙ '
+      devModeTitlePrefix: '&#x1f6a7; '
+      displayAnalysisSidebar: true
+      displayPreviewSidebar: true
+      enableJsonLdEndpoint: true
+      enableMetaContainerEndpoint: true
+      enableSeoFileLinkEndpoint: true
+      environment: live
+      excludeNonCanonicalUrls: false
+      generatorEnabled: true
+      headersEnabled: true
+      includeHomepageInBreadcrumbs: true
+      lowercaseCanonicalUrl: true
+      manuallySetEnvironment: false
+      maxDescriptionLength: 155
+      maxTitleLength: 70
+      metaCacheDuration: 0
+      pluginName: SEO
+      regenerateSitemapsAutomatically: true
+      renderEnabled: true
+      separatorChar: '|'
+      sidebarDisplayPreviewTypes:
+        - google
+        - twitter
+        - facebook
+      siteGroupsSeparate: '1'
+      siteUrlOverride: '@siteUrl'
+      sitemapsEnabled: true
+      socialMediaPreviewTarget: true
+      submitSitemaps: true
+      truncateDescriptionTags: '1'
+      truncateTitleTags: '1'
   super-table:
     edition: standard
     enabled: true

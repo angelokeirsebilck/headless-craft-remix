@@ -1,4 +1,4 @@
-baseUrl: '@web/'
+baseUrl: '@siteUrl/nl'
 enabled: true
 handle: siteNL
 hasUrls: true
